@@ -9,7 +9,11 @@ export default function Home() {
         </div>
         <div className='flex flex-row'>
           <div className='w-1/4 border text-2xl'> Area 1 </div>
-          <div className='w-1/2 border text-2xl'> Area 2 </div>
+          <div className='game-container w-1/2 border text-2xl'>
+            <canvas className="game-canvas border">
+
+            </canvas>
+          </div>
           <div className='w-1/4 border text-2xl'> Area 3 </div>
         </div>
       </div>

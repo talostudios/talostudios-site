@@ -11,6 +11,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'sage': '#C5D5BC',
+      'hot-fudge': '#483934',
     },
   },
   plugins: [],

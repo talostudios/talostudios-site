@@ -5,13 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'sage': '#C5D5BC',
-      'hot-fudge': '#483934',
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'sage': '#C5D5BC',
+        'hot-fudge': '#483934',
+      },
     },
   },
   plugins: [],

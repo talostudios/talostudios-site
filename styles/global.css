@@ -8,8 +8,6 @@ body {
 
 @layer components{
     .btn {
-        @apply background-color: theme('colors.white')
-        outline: 1px dotted;
-        outline: 5px auto -webkit-focus-ring-color;
+        @apply px-4 py-2 text-2xl tracking-wide rounded-md shadow-sm bg-whisper-white
       }
 }

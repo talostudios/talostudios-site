@@ -9,15 +9,21 @@ export default function Home() {
       <div className='p-2' />
       <div className='h-full flex'>
         <div className='w-1/4 border flex items-center justify-center'> 
-          <button className='px-4 py-2 font-medium tracking-wide bg-indigo-300 text-indgo-300'> 
+          <button className='btn'> 
             Art
           </button>
         </div>
         <div className='w-1/2 border flex items-center justify-center'> Area 2 - Game </div>
-        <div className='w-1/4 border flex items-center justify-center'> Area 3 - Right Button </div>
+        <div className='w-1/4 border flex items-center justify-center'> 
+          <button className='btn'> 
+            Writing
+          </button>
+        </div>
       </div>
       <div className='h-1/4 border flex items-center justify-center'>
-        <h1>Area 4 - Botton Button </h1>
+        <button className='btn'> 
+          Dev
+        </button>
       </div>
     </div>
   )

@@ -14,6 +14,7 @@ module.exports = {
         'white': '#ffffff',
         'sage': '#C5D5BC',
         'hot-fudge': '#483934',
+        'whisper-white': '#EDE7DC'
       },
     },
   },
